@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @ruby_employee_app.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @ruby_employee_app.age %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @ruby_employee_app.gender %>
+</p>
+
+<p>
+  <strong>Designation:</strong>
+  <%= @ruby_employee_app.designation %>
+</p>
+
+<%= link_to 'Edit', edit_ruby_employee_app_path(@ruby_employee_app) %> |
+<%= link_to 'Back', ruby_employee_apps_path %>
